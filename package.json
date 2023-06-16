@@ -1,0 +1,21 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "dev": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.2.0",
+    "firebase": "^9.22.2",
+    "telegraf": "^4.12.2"
+  }
+}
